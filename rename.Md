@@ -19,6 +19,17 @@ This file tracks UI rename and link edits so the exact source locations are easy
 - `Shields popup title / accessibility / down-state copy renamed from Brave to VKRM where requested`
   - `/vkrmbrowser/src/brave/browser/ui/android/strings/android_brave_strings.grd`
 
+## Toolbar Surface
+
+- `Top toolbar Shields button now uses the VKRM logo instead of Brave's shield art`
+  - `/vkrmbrowser/src/brave/android/java/brave-res/layout/brave_toolbar.xml`
+  - `/vkrmbrowser/src/brave/android/java/org/chromium/chrome/browser/toolbar/top/BraveToolbarLayoutImpl.java`
+
+- `3-dot app menu moved off the bottom toolbar and back to the top search/address bar`
+  - `/vkrmbrowser/src/brave/android/java/org/chromium/chrome/browser/toolbar/bottom/BottomToolbarVariationManager.java`
+  - `/vkrmbrowser/src/brave/android/java/org/chromium/chrome/browser/toolbar/top/BraveTopToolbarCoordinator.java`
+  - `/vkrmbrowser/src/brave/android/java/org/chromium/chrome/browser/toolbar/top/BraveToolbarLayoutImpl.java`
+
 ## Earlier Rename / Link Files
 
 - `Welcome flow wording and optional GitHub action`
